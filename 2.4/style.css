@@ -1,0 +1,19 @@
+
+  body
+  {
+    color:white;
+  }
+  
+  
+  
+  .content {
+    background-color: blue;
+    box-sizing: border-box;
+    margin: auto; 
+    height:500px;
+    width: 550px;       
+    padding: 5px;      
+    padding-bottom: 90px;
+    float:center;
+    overflow: hidden;
+  }

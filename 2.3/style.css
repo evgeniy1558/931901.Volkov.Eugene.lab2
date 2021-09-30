@@ -1,0 +1,20 @@
+
+  body
+  {
+    color:white;
+  }
+  
+  
+  
+  .content {
+    background-color: blue;
+    box-sizing: content-box;
+    margin: auto; 
+    height:auto;
+    width: 550px;       
+    padding: 5px;      
+    padding-bottom: 90px;
+    min-height: 100%;
+    float:center;
+    overflow-x: scroll; /* will make horizontal scroll-bar appear only when needed */
+  }

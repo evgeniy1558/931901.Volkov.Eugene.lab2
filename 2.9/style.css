@@ -1,0 +1,28 @@
+
+  body
+  {
+    color:white;
+  }
+  
+  
+  
+  .content {
+    background-color: blue;
+    box-sizing: content-box;
+    margin: auto; 
+    height:400px;
+    width: 450px;       
+    padding: 0px;      
+    min-height: 100%;
+    font-size: 10px
+  }
+
+
+  .picture
+  {
+    float: right;
+    margin: 0 0 5px 5px; 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+  }

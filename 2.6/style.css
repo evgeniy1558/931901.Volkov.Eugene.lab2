@@ -1,0 +1,35 @@
+
+  body
+  {
+    color:white;
+  }
+  
+  
+  
+  .content {
+    background-color: white;
+    color:black;
+    font-size: 10px;
+    box-sizing: content-box;
+    height: 80px;
+    width: 350px;
+    margin: auto;       
+    padding: 5px;      
+    padding-bottom: 90px;
+    min-height: 100%;
+
+  }
+
+  .content2 {
+    color:black;
+    border:10px;
+    border-style: solid;
+    border-color: blue;
+    margin-bottom: 300px;
+    height:auto;
+    width: 300px;   
+    margin: auto;        
+    padding: 20px;   
+    padding-bottom: auto;  
+    font-size: 10px;
+  }

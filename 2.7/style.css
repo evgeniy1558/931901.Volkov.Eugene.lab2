@@ -1,0 +1,63 @@
+.rectangle1 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    position: static;
+    background: indigo;
+    color:white;
+}
+
+.rectangle2 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    background: darkred;
+    left:-150px;
+    top:100px;
+    color:white;
+}
+
+.rectangle3 {
+    float:left;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    background: peru;
+    left:-250px;
+    top:150px;
+    color:white;
+}
+
+.rectangle4 {
+    float:left;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background: indianred;
+    left:-450px;
+    top:270px;
+    color:white;
+}
+
+.rectangle5 {
+    float:left;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    background: indigo;
+    left:150px;
+    top:100px;
+    color:white;
+}
+
+.rectangle6
+{
+    background: green;
+    position: fixed;
+    bottom:0px;
+    right: 0px;
+    height: 100px;
+    width: 50px;
+    color:white;
+}
