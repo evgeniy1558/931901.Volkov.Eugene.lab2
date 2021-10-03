@@ -1,11 +1,11 @@
-.box {
+﻿.box {
       background-color: aquamarine;
       box-sizing: content-box;
-      margin: 10px; /* отступы самой рамки*/
+      margin: 10px; 
       height:30px;
       width: 150px;       
-      padding: 20px;      /* поля отступа текста от границ*/
-      border: 100px ; /* границы , линии*/
+      padding: 20px;      
+      border: 100px ; 
       border-color: brown;
       word-spacing:0px;
       padding-bottom: 90px;

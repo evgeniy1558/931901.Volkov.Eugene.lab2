@@ -1,0 +1,38 @@
+
+  .rectangle
+{
+  float: left;
+  min-width: 200px;
+  max-width: 250px;
+  height: 100px;
+  background: #f5f5dc;
+  clear:both;
+}
+.picture
+{
+  float: right;
+  width: 30%;
+  height: 30%;
+  padding: 0px;
+  
+}
+
+.box
+{ 
+  min-height: 100%;
+  font-size: 12px;
+  background-color:grey;
+  height: auto;
+  left: 200px;
+}
+
+  .content {
+    background-color:aqua;
+    box-sizing: content-box;
+    margin: 0px; 
+    height:auto;
+    width: auto;       
+    padding: 0px;     
+    border:1px solid green ;
+  }
+
