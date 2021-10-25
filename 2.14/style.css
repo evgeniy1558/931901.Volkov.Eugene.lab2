@@ -1,37 +1,84 @@
 
-  body
-  {
-    color:white;
-  }
-  
-  .rectangle
+body
 {
+  color:white;
+  margin: 5px;
+  height: auto;
+}
+  
+.rectangle
+{
+  position: absolute;
+  min-width: 250px;
+  height: 100px;
+  background-color: wheat;
+  clear: left;
   float: left;
-  width: 300px;
-  height: auto;
-  background: #f5f5dc;
-}
-  
-.box
-{
-  float: right;
-  background-color:grey;
-  height: auto;
-  min-width: 200px;
-    max-width: 960px;
 }
 
+.sidebar
+{
+  background-color: aqua;
+  min-width: 250px;
+  min-height:150px;
+  max-height: 100%;
+  float: left;
+  clear: left;
+}
+
+.text {
+  display: flex;
+}
+
+.content {
+	display: flex;
+	background-color:grey;
+  margin: 0px; 
+  width: 100%;       
+  padding: 0px;      
+  font-size: 14px;
+  color:black;
+}
+
+.footer {
+  background: lightgreen;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+@media (max-width: 600px) {
   .content {
-    background-color:aqua;
-    box-sizing: content-box;
-    margin: 0px; 
-    height: 200px;
-    min-width: 320px;
-    max-width: 1400px;    
-    padding: 0px;      
-    min-height: 100%;
-    font-size: 10px;
-    color:black;
-    border:1px solid green ;
+    display:block;
+  }
+  
+  .rectangle, .sidebar {
+    width: 100%;
+    float: none;
   }
 
+  .sidebar {
+    min-height: 48px;
+  }
+
+  .rectangle {
+    height: auto;
+    margin: 16px 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    padding: 0;
+  }
+
+  ul {
+    margin: 0;
+  }
+  
+  .text {
+    display: block;
+    clear: both;
+  }
+}
